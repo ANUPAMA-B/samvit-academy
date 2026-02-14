@@ -33,18 +33,18 @@ const Gallery = () => (
               <div
                 className="gallery-image-wrapper"
                 style={{
-                  height: '350px',        // ✅ increased height
+                  height: '350px',
                   overflow: 'hidden',
                 }}
               >
                 <img
                   src={src}
-                  alt={`Gallery image ${idx + 1}`}
+                  alt={`Gallery ${idx + 1}`}
                   className="gallery-image"
                   style={{
                     width: '100%',
                     height: '100%',
-                    objectFit: 'cover',   // ✅ keeps image proportional
+                    objectFit: 'cover',
                   }}
                 />
               </div>
